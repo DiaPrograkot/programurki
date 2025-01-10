@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline; /*Ведет себя как строчный элемент*/
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    gap: 20px; /*Отступы внутри контейнера*/
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    border: 10px;
+    border-radius: 10px; /*Скругление углов*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /*Тень вокруг блока*/
+    margin-left: 20px;
+}
+
+.sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover { /*Поведение при наведении*/
+    text-decoration: underline;
+}
+
+main {
+    flex: 1; /*Сокращённая запись свойств: flex-grow, flex-shrink*/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+a{
+    color:black;
+}
+
+#hero {
+    background-color: #ffcc00; /* Жёлтый фон */
+    padding: 15px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer; /*Визуальная кликабельность*/
+    border-radius: 5px;
+}
+
+#about, #tips, #lessons, #contacts {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px 0px 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #tips h2, #lessons h2, #contacts h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.examples {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.examples section {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tip, .fact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 20px);
+}
+
+.tip h3, .fact h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.lesson {
+    margin-bottom: 20px;
+}
+
+.lesson h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.lesson p {
+    margin-bottom: 10px;
+}
+
+.lesson code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer nav ul {
+    margin:0;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}

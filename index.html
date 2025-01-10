@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Обучение фронтенд-разработке с Муркой-сенсеем. HTML, CSS, JavaScript, советы и весёлые мини-уроки для начинающих.">
+    <meta name="keywords"
+        content="фронтенд-разработка, HTML, CSS, JavaScript, программирование для начинающих, разработка сайтов, интерактивное обучение коду, программурки, Мурка-сенсей, основы IT">
+    <title>Программурки: Лапка в коде, хвост в дизайне</title>
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">О нас</a></li>
+                <li><a href="#tips">Советы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#form">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-container">
+        <aside class="sidebar">
+            <h3>Полезные ссылки</h3>
+            <ul>
+                <li><a href="https://htmlreference.io" target="_blank">Справочник по HTML</a></li>
+                <li><a href="https://cssreference.io" target="_blank">Справочник по CSS</a></li>
+                <li><a href="https://javascript.info" target="_blank">Учебник по JavaScript</a></li>
+            </ul>
+            <h3>Последние уроки</h3>
+            <ul>
+                <li><a href="#lessons">HTML: Секреты семантики</a></li>
+                <li><a href="#lessons">CSS: Секреты Flexbox</a></li>
+                <li><a href="#lessons">JavaScript: Движение мышкой</a></li>
+            </ul>
+            <h3>Советы от Мурки</h3>
+            <ul>
+                <li>Используй семантические теги!</li>
+                <li>Не забывай про отладку в консоли.</li>
+                <li>Практикуйся каждый день.</li>
+            </ul>
+        </aside>
+        <main>
+        <section id="hero">
+            <h1>Программурки: Лапа в коде, хвост в дизайне!</h1>
+            <p>Обучение фронтенд-разработке с уникальными советами, фактами и мини-уроками для начинающих.</p>
+            <button>Начать обучение</button>
+        </section>
+        <section id="about">
+            <h2>Что такое Программурки?</h2>
+            <p>Программурки — это уникальный проект, созданный для начинающих фронтенд-разработчиков. Наша цель — помочь
+                тебе сделать первые шаги в мире HTML, CSS и JavaScript.</p>
+            <ul>
+                <li>Лёгкое и увлекательное обучение</li>
+                <li>Полезные советы и примеры</li>
+                <li>Поддержка начинающих</li>
+            </ul>
+            </section>
+            <div class="examples">
+            <section id="tips">
+                <h2>Уникальные советы и факты от Мурки-сенсея</h2>
+                <p>Познакомься с лучшими советами и мини-уроками, которые помогут освоить фронтенд-разработку!</p>
+                <div class="tips-container">
+                    <article class="tip">
+                        <h3>Совет #1</h3>
+                        <p>Семантические теги HTML улучшают доступность сайта и помогают поисковым системам понимать его
+                            содержимое.</p>
+                    </article>
+                    <article class="fact">
+                        <h3>Факт #1</h3>
+                        <p>HTML был создан Тимом Бернерсом-Ли в 1991 году и изначально использовался для обмена научными
+                            документами.</p>
+                    </article>
+                </div>
+            </section>
+                        <section id="lessons">
+                <h2>Мини-уроки для начинающих фронтенд-разработчиков</h2>
+                    <div class="lesson">
+                        <h3>HTML: Секреты семантики</h3>
+                        <p>Что такое &lt;article&gt;, &lt;section&gt;, &lt;aside&gt; и почему их важно использовать.</p>
+                        <p><strong>Мини-урок:</strong> Создай страницу с новостями, используя только семантические теги.</p>
+                    </div>
+                    <div class="lesson">
+                        <h3>CSS: Секреты Flexbox</h3>
+                        <p>Как сделать элементы одинакового размера, даже если текст внутри разный.</p>
+                        <p><strong>Мини-урок:</strong> Создай меню, которое растягивается на всю ширину страницы.</p>
+                    </div>
+                    <div class="lesson">
+                        <h3>JavaScript: Движение мышкой</h3>
+                        <p>Как отследить координаты мыши с помощью события <code>mousemove</code>.</p>
+                        <p><strong>Мини-урок:</strong> Сделай, чтобы картинка двигалась за курсором.</p>
+                    </div>
+            </section>
+        </div>
+        <section id="contacts">
+            <h2>Свяжись с нами!</h2>
+            <p>Если у тебя есть вопросы или ты хочешь оставить отзыв, напиши нам через форму ниже:</p>
+            <form action="#" method="POST">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Твоё имя" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Твой email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" placeholder="Твоё сообщение" rows="5" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+            <div class="contact-info">
+                <p>Или напиши нам напрямую:</p>
+                <ul>
+                    <li>Email: <a href="mailto:frontendguru@example.com">frontendguru@gmail.com</a></li>
+                    <li>Мы в соцсетях:
+                        <a href="#">ВКонтакте</a>,
+                        <a href="#">Telegram</a>,
+                        <a href="#">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <p>© 2024 Программурки: Лапа в коде, хвост в дизайне. Все права защищены.</p>
+        <nav>
+            <ul>
+                <li><a href="#hero">Домой</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
