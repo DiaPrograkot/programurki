@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 .sidebar {
-    width: 250px;
+    width: 320px;
     padding: 20px;
     border: 10px;
     border-radius: 10px; /*Скругление углов*/
@@ -47,8 +47,12 @@ nav ul li a {
 }
 
 .sidebar h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+        color: #2c3e50;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e67e22;
+        display: inline-block;
+        padding-bottom: 5px;
 }
 
 
@@ -77,7 +81,7 @@ a{
 }
 
 #hero {
-    background-color: #ffcc00;
+    background-color: #fff16e;
     padding: 15px 20px;
     text-align: center;
 }
@@ -144,7 +148,7 @@ a{
 .tip h3, .fact h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #ffcc00;
+    color: #e67e22;
 }
 
 .lesson {
@@ -154,7 +158,7 @@ a{
 .lesson h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #ffcc00;
+    color: #e67e22;
 }
 
 .lesson p {
@@ -186,7 +190,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #ffcc00;
+    background-color: #fff16e;
     color: #333;
     padding: 10px 20px;
     font-size: 1rem;
